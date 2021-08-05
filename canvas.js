@@ -114,6 +114,6 @@ window.addEventListener("resize", function () {
 
     //some browser does not keep the canvas position on resizing so adding an even listener to fix it
    
-    canva.height = window.innerHeight / 1.6;
-    canva.width = window.innerWidth / 1.7;
+    canvas.height = window.innerHeight / 1.6;
+    canvas.width = window.innerWidth / 1.7;
 });
